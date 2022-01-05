@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_1"
+        android:icon="@drawable/home"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/sleep_mode"
+        android:title="절전모드" />
+
+    <item
+        android:id="@+id/navigation_3"
+        android:icon="@drawable/emergency_bell"
+        android:title="비상벨" />
+
+    <item
+        android:id="@+id/navigation_4"
+        android:icon="@drawable/settings"
+        android:title="설정" />
+
+</menu>
