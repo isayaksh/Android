@@ -16,6 +16,51 @@
         android:padding="10dp">
 
         <ImageView
+            android:id="@+id/led_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/led" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:text="LED 랜턴" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/led"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="OFF"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <SeekBar
+                android:id="@+id/led_seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_space"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="@drawable/carbon_monoxide" />
@@ -56,45 +101,6 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/led" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="10dp"
-            android:layout_weight="1"
-            android:text="LED 랜턴" />
-
-        <TextView
-            android:id="@+id/led"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"
-            android:text="00%"
-            android:textAlignment="viewEnd" />
-
-        <Switch
-            android:id="@+id/led_switch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@drawable/white_space"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
             app:srcCompat="@drawable/thief" />
 
         <TextView
@@ -112,7 +118,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:text="ON"
+            android:text="OFF"
             android:textAlignment="viewEnd" />
 
         <Switch
@@ -151,7 +157,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:text="ON"
+            android:text="OFF"
             android:textAlignment="viewEnd" />
 
         <Switch

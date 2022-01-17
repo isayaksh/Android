@@ -2,6 +2,7 @@ package com.example.lamp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -84,9 +85,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View v){
-        if(v == findViewById(R.id.info)){
-            Toast.makeText(this,"info",Toast.LENGTH_SHORT).show();
-            // 앱과 제품에 대한 Information
+        if(v == findViewById(R.id.info)){ // 앱과 제품에 대한 Information
+            //Toast.makeText(this,"info",Toast.LENGTH_SHORT).show();
+            // 도움말을 제공할 AlertDialog 메시지
+            InfoDialog infoDialog = new InfoDialog(MainActivity.this);
+            infoDialog.show();
         }
         else if(v == findViewById(R.id.bluetooth)){
             Toast.makeText(this, "bluetooth", Toast.LENGTH_SHORT).show();
