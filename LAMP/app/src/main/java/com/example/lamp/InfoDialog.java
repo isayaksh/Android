@@ -20,7 +20,7 @@ public class InfoDialog extends Dialog{
         info_text = findViewById(R.id.info_text);
         info_text.setText(message);
 
-        info_close = findViewById(R.id.info_close);
+        info_close = findViewById(R.id.volume_ok);
         info_close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

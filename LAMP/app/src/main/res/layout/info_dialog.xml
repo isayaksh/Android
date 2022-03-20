@@ -37,10 +37,10 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/info_close"
+        android:id="@+id/volume_ok"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@drawable/radius_teal_700"
         android:padding="10sp"
         android:text="닫기"
         android:textAlignment="center"
