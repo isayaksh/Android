@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/info_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10sp"
@@ -14,6 +15,13 @@
         android:textColor="@color/teal_700"
         android:textSize="16sp"
         android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="@color/teal_700"
+        android:backgroundTint="@color/teal_700"
+        android:orientation="vertical"></LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,12 +34,57 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/info_text"
+                android:id="@+id/info_text1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="10sp"
-                android:text="1. 캠지 앱을 실행시키고 홈 화면 상단 '블루투스"
+                android:layout_margin="4dp"
+                android:background="@drawable/outline"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/info_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/outline"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/info_text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/outline"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/info_text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/outline"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/info_text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/outline"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/info_text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/outline"
+                android:padding="8dp"
                 android:textColor="@color/black" />
         </LinearLayout>
     </ScrollView>

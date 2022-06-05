@@ -3,6 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/edit_text.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/green_dot.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/orange_dot.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/outline.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/radius.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/red_dot.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/shape.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/drawable/yellow_dot.xml" value="0.1715" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/basic_dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/co_dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/ff_dialog.xml" value="0.264" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/fragment_page_1.xml" value="0.264" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/fragment_page_3.xml" value="0.25364583333333335" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/fragment_page_4.xml" value="0.25364583333333335" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/fsd_dialog.xml" value="0.18072916666666666" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/info_dialog.xml" value="0.264" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/list_dialog.xml" value="0.25364583333333335" />
+        <entry key="..\:/GitHub/Android/Android/LAMP/app/src/main/res/layout/login.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/i-Media006/AndroidStudioProjects/Android/LAMP/app/src/main/res/drawable/radius.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/i-Media006/AndroidStudioProjects/Android/LAMP/app/src/main/res/layout/fragment_page_1.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/i-Media006/AndroidStudioProjects/Android/LAMP/app/src/main/res/layout/fragment_page_4.xml" value="0.36614583333333334" />

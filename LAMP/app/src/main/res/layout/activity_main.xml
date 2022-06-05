@@ -127,24 +127,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="10" />
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="배터리"
-                android:textAlignment="viewEnd"
-                android:textColor="@color/teal_200"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/battery"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="100%"
-                android:textColor="@color/teal_200"
-                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 
@@ -153,7 +135,18 @@
         android:layout_width="match_parent"
         android:layout_height="472dp"
         android:layout_weight="1"
-        android:background="#D3D3D3" />
+        android:background="#D3D3D3" >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/stt_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="12sp"
+            android:clickable="true"
+            android:src="@drawable/mic" />
+
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"

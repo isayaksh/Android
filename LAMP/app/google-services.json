@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "953879563746",
+    "project_id": "cshieldl",
+    "storage_bucket": "cshieldl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953879563746:android:fe7455b97900442e083dbb",
+        "android_client_info": {
+          "package_name": "com.example.lamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953879563746-bb90bnvhrkibpgcscm1jc3fqcb63j4gj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lamp",
+            "certificate_hash": "6589049bac7cc6654da2401fef6950eeeabd86f9"
+          }
+        },
+        {
+          "client_id": "953879563746-h647udlbr7d4d0vpio41ahpq4uemcvr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa92wk68VY3M9WA4mA6DvXnHAVeMYf_kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953879563746-h647udlbr7d4d0vpio41ahpq4uemcvr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
