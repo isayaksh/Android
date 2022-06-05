@@ -17,7 +17,7 @@ import java.io.IOException;
 public class ApiFF {
     public static String main(String doname) throws IOException, JSONException {
         StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1400377/forestPoint/forestPointListSidoSearch"); /*URL*/
-        urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "=fKzRp%2FT%2BTnSS7ZOLrgS8hTKkyS3PvdrAEK1MyOSw%2FOdwRkPOMPPrMGB9jotVpEH4bqo%2BVOSWrIzWp2AV9xG%2FlA%3D%3D"); /*Service Key*/
+        urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "=서비스키"); /*Service Key*/
         urlBuilder.append("&" + URLEncoder.encode("pageNo","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8")); /*페이지번호*/
         urlBuilder.append("&" + URLEncoder.encode("numOfRows","UTF-8") + "=" + URLEncoder.encode("10", "UTF-8")); /*한 페이지 결과 수*/
         urlBuilder.append("&" + URLEncoder.encode("_type","UTF-8") + "=" + URLEncoder.encode("json", "UTF-8")); /*응답 결과의 출력 방식을 xml, json형태로 변환 제공될 수 있도록 함*/
